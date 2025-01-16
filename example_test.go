@@ -6,4 +6,6 @@ func ATest(t *testing.T) {
 	if !Res(true) {
 		t.FailNow()
 	}
+
+	t.FailNow()
 }
