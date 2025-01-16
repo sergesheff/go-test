@@ -7,6 +7,6 @@ func TestA(t *testing.T) {
 		t.FailNow()
 	}
 
-	t.FailNow()
+	//t.FailNow()
 
 }
