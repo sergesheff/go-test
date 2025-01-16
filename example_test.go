@@ -2,10 +2,11 @@ package testt
 
 import "testing"
 
-func ATest(t *testing.T) {
+func TestA(t *testing.T) {
 	if !Res(true) {
 		t.FailNow()
 	}
 
 	t.FailNow()
+
 }
